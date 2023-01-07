@@ -1,0 +1,227 @@
+*{
+    box-sizing: border-box;   
+}
+body{
+    background-color: #f8f8f8;
+    font-family: Commissioner, sans-serif;
+    font-size: 14px;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    width: 100%;
+}
+
+
+/* special-category-section-style */
+.items-title{
+    padding: 10px 0px;
+}
+.items-title>h5{
+    margin: 0;
+    color: rgb(36, 36, 36);
+    font-size: 16px;
+    font-weight: 500;
+}
+.tegory-items:hover{
+    cursor: pointer;
+}
+.tegory-title>h3{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+
+/* ads-section1 */
+#myAdsImg1{
+    --hovered: 0;
+}
+#myAdsImg1:hover{
+    --hovered: 1;
+    opacity: 0;
+    transition-duration: 0.5s;
+}
+.myAdsImg2{
+    z-index: -1;
+}
+
+
+/*special-gift-section-style*/
+.gift-section-title>h3{
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0;
+}
+.gift-card{
+    border-radius: 10px;
+    height: 100%;
+}
+.card-title{
+    padding: 5px;
+}
+.card-title>h5{
+    color: rgb(36, 36, 36);
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0px;
+}
+.card-img{
+    border-radius: 10px;
+    overflow: hidden;
+}
+.card-img>img{
+    transition: 1s;
+}
+.card-img>img:hover{
+    transform: scale(1.1);
+}
+
+
+/* ads-section2 style */
+.ads-section2{
+    overflow: hidden;
+    border-radius: 10px;
+}
+.ads-section2>img{
+    transition: 1s;
+}
+.ads-section2>img:hover{
+    transform: scale(1.07);
+}
+
+
+/* holidays-special-section-style */
+.holidays-special-section{
+    background: rgb(242, 242, 242);
+}
+.special-section-title>h5{
+    margin: 0px;
+    color: rgb(36, 36, 36);
+    font-size: 32px;
+    font-weight: 600;
+}
+.special-card-header{
+    overflow: hidden;
+    border-radius: 10px;
+}
+.special-card-header>img{
+    border-radius: 10px;
+    transition: 1s;
+}
+.special-card-header>img:hover{
+    transform: scale(1.1);
+}
+.special-card-title{
+    text-align: center;
+}
+.special-card-title>h5{
+    color: rgb(36, 36, 36);
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0px;
+}
+.swiper-wraper{
+    display: flex;
+}
+.swiper-btn{
+    background-color: rgb(235, 87, 87);
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    border-radius: 50%;
+}
+.swiper-btn::after{
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+/*holidays-special-section2*/
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    left: 30%;
+    bottom: 10%;
+}
+.btn>h5{
+    color: rgb(36 , 36 , 36);
+    font-size: 18px;
+    font-weight: 600;
+}
+/* .btn>h5::after{
+    content: '';
+    width: ;
+    height: ;
+} */
+
+
+
+
+
+
+
+
+
+
+/* holidays-special-gift man */
+.gift-man-card-header>img{
+    width: 100%;
+}
+.holidays-special-gift-man-card{
+    background-color: #fff;
+    border-radius: 5px;
+}
+.gift-man-card-title>h4{
+    margin: 0;
+    font-weight: 600;
+    font-size: 12px;
+    color: rgb(36 , 36 , 36);
+}
+.gift-man-card-title{
+    padding: 10px;
+}
+.gift-man-card-title>h5{
+    font-size: 11px;
+    font-weight: 400;
+    margin: 0;
+    color: rgb(36, 36, 36);
+}
+
+/* something-interesting */
+.interested-card{
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid rgba(102 , 102 ,102 , 0.5);
+}
+.interested-section-title{
+    margin: 0px;
+    font-size: 24px;
+    font-weight: 600;
+}
+.interested-card-header{
+    overflow: hidden;
+    border-radius: 5px;
+}
+.interested-card-header{
+    width: 100%;
+}
+.interested-card-header>img{
+    width: 100%;
+}
+.interested-card-title>h4{
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(36 , 36 , 36);
+}
+.interested-card-title>h5{
+    font-size: 13px;
+    font-weight: normal;
+    color: rgb(102 , 102 ,102);
+}
